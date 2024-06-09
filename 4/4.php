@@ -1,8 +1,12 @@
 <?php
 
 /*
-    * note: [git init] for a directory inside [git init] for the upper directory
-        =>> [git add .] won't be done for the inner directory.
+    * note: 
+        [1] [git init] for a directory inside [git init] for the upper directory
+            =>> [git add .] won't be done for the inner directory.
+
+        [2] to exit unix window:
+            =>> [ESC] -> [:wq] or [:wq!] -> [enter]
 
     * remote repo = global repo = github.
     * local repo = local branch = branch.
