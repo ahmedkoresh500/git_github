@@ -2,7 +2,7 @@
 
 /*
     * note: 
-        [1] [git init] for a directory inside [git init] for the upper directory
+        [1] [git init] for a directory inside another directory has [git init].
             =>> [git add .] won't be done for the inner directory.
 
         [2] to exit unix window:
