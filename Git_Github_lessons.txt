@@ -12,7 +12,7 @@
 12- [create new branch] -> [git branch main] [git checkout -b main]
 12- make a commit [main branch] =>> merge with [master branch]  =>> before push
 13- [git stash]
-14- 
+14- [git stash]
 15- 
 16- 
 17- 

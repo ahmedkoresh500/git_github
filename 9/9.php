@@ -18,8 +18,8 @@
     * git push -u origin master                 =>> [-u] =>> [pull request] first  =>> then [push request]
                                                 =>> my work removed =>> during [pull request]
     or
-    * git pull origin master                    =>> push without pull =>> warning message.
-    * git push origin master
+    * [git pull origin master]                  =>> push without pull =>> warning message.
+    * [git push origin master]
 */
 ?>
 
