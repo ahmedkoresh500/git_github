@@ -16,12 +16,12 @@
 
     * touch JS
     * git add JS
-    * git stash save "readme file"      =>> stash with [text msg].
+    * git stash save "JS file"          =>> stash file with [text msg].
     ** git stash list
     
-    * touch hello.html                  =>> to create new file
-    * git add hello.html                =>> [untracked file] in [working directory] -> [stage area].
-    * git stash                         =>> stash files in [stash box].
+    * touch TS
+    * git add TS
+    * git stash                         =>> stash file in [stash box].
     
     * git stash pop                     =>> unstash files from [stash box] =>> and deleting it's index.
     * git stash apply                   =>> unstash files from [stash box] =>> and not deleting it's index.
