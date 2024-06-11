@@ -7,12 +7,15 @@
     =>> when using pop:
     * last in = first out = index [0] =>> only one index for one pop.
 
-    * touch readme.txt
+    * touch my_file.txt
+    * nano my_file.txt
     * git add readme.txt
-    * git stash                         =>> it also hides files from computer [not through view hidden].
+    * git stash             =>> stash [untracked files] in [working directory] -> [stash box] from [git], [windows]
+                            =>> even staged
+                            =>> [not through view hidden]
 
     * touch js
-    * git add js                        =>> adding this file to stage area.
+    * git add js                        =>> [untracked file] in working directory -> [stage area]
     * git stash save "readme file"      =>> to stash this file with text msg.
     ** git stash list
     
