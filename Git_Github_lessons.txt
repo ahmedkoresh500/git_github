@@ -2,7 +2,7 @@
 2- 
 3-  [git clone (repo_link from github)]
 4- 
-5-  [git remote -v]
+5-  [git remote -v] [git branch -m main] [git branch -m master] [git remote set-URL origin (new repo_link)]
 6-  [git pull origin] -> makes two commands
 7-  [git config -l] [git config --global user.email] [unix window]
 8-  [public key] [secure shell]
@@ -13,8 +13,8 @@
 12- make a commit [main branch] =>> merge with [master branch]  =>> before push
 13- [git stash]
 14- [git stash]
-15- 
-16- 
-17- 
-18- 
+15- [git add .] [git reset head] [git restore --staged .]
+16- reset [head] pointer at specific commit [older commit]
+17- [.gitignore]
+18- [new tag]
 19- 

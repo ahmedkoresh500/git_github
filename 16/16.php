@@ -1,39 +1,37 @@
 <?php
 /*
-    * this lesson:
-        1- deleting one or more commits =>> through reset the head.
-        2- [head] =>> pointer that points at last commit.
+        * reset [head] pointer =>> at specific commit [older commit]
+        * result =>> [newest commits] will be deleted
     
-    * [git log]             =>> to show commits history
-    * [git reflog]          =>> to show commit history
+    * [git log]             =>> to display commits history
+    * [git reflog]          =>> to display commits history
+    * [q]or[wq]             =>> to exit [log screen]
     
-    =>> to exit log screen:
-        * [q]or[wq]
+    * [cd /c/xampp/htdocs/my_github/project-3dos]
     
-    cd /c/xampp/htdocs/my_github/project-3dos
+    * [touch good.txt]                          =>> create [good.txt] file
+    * [touch middle.txt]                        =>> create [middle.txt] file
+    * [touch bad.txt]                           =>> create [bad.txt] file
     
-    * touch good.txt
-    * touch middle.txt
-    * touch bad.txt
+    * [git add good.txt]
+    * [git commit -m "(good.txt file) commit"]      =>> [1] [good.txt] file
+    * [git push origin main]
     
-    * git add good.txt
-    * git commit -m "the good commit"
-    * git push origin main
+    * [git add middle.txt]
+    * [git commit -m "(middle.txt file) commit"]    =>> [2] [middle.txt] file
+    * [git push origin main]
     
-    * git add middle.txt
-    * git commit -m "the middle commit"
-    * git push origin main
+    * [git add bad.txt]
+    * [git commit -m "(bad.txt file) commit"]       =>> [3] [bad.txt] file
+    * [git push origin main]
     
-    * git add bad.txt
-    * git commit -m "the bad commit"
-    * git push origin main
+    * git reset --hard (commit ID)          =>> reset [head] pointer =>> at specific commit [older commit]
+                                            =>> result =>> [newest commits] will be deleted
     
-    * git reset --hard 3976d78ce2737060677c57b935cadce9d8071b2b  =>> to reset the head on cmder program at good commit.
-                                                                    =>> deleting middle commit.
-                                                                    =>> deleting bad commit.
-    
-* git push origin main --force          =>> to reset the head on github [remote repo]
-                                        =>> [-f] = [--force]
-                                        =>> [--f] != [--force]
+    * git push -f origin master             =>> reset [head] pointer =>> in github [remote repo]
+    * git push --force origin master        =>> reset [head] pointer =>> in github [remote repo]
+
+    * [-f] = [--force]
+    * [--f]                                 =>> command not found
 */
 ?>
