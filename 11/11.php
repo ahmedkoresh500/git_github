@@ -1,32 +1,26 @@
 <?php
 /*
-    * git config --global alias.st status       =>> to make alias name =>> [ st ] for [ status ].
+    * [git config --global alias.st status]         =>> [st] alias for [status].
+    * [git config --global alias.br branch]         =>> [br] alias for [branch].
+    * [git config --global alias.cm "commit -m"]    =>> [cm] alias for [commit -m].
+
+    * [git config --global alias.st]                =>> to display main word = [status].
+    * [git config --global alias.br]                =>> to display main word = [branch].
+
+    * [git st = git status]                         =>> two are the same.
+    * [git br = git branch]                         =>> two are the same.
+
+    * cd 'Ahmed Kourrish'                           =>> space in unix = syntax error
+                                                    =>> solution = ['] or ["].
     
-    * git config --global alias.st              =>> it will print the word that has alias = [ status ].
+    * [git branch]                                  =>> to display [all local branches] for this repo.
     
+    * git config --global --edit                    =>> to open [unix window]
+                                                    =>> to display [user details], [alias details]
+
+    =>> to exit [unix window]:
+    [1][ESC]   [2][:wq]or[:wq!]   [3][enter]
     
-    * git st = git status                       =>> the two are equal.
-    
-    
-    * cd 'Ahmed Kourrish'                       =>> the space in unix world = two orders.
-                                                =>> so, i can use [ ' ] or [ " ].
-    
-    * git branch                                =>> to print all branches i have in this directory.
-    
-    * git config --global alias.br branch       =>> to make alias name =>> [ br ] for [ branch ].
-    
-    * git config --global alias.br              =>> it will print the word that has alias [ branch ].
-    
-    * git br = git branch                       =>> the two are equal.
-    
-    * git config --global alias.cm "commit -m"  =>> to make alias name =>> [ cm ] for [ commit -m ].
-    
-    
-    
-    
-    * git config --global --edit                        =>> to open configurations window from cmd program.
-                                                        =>> and i can't get out of it.
-    
-    * search about [ git alias list ] on google and see predefined alias names.
+    * [git alias list] google it =>> to see [predefined alias names].
 */
 ?>

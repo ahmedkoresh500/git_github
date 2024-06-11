@@ -8,58 +8,55 @@
     * [readme.md] =>> md = markdown =>> serach on wikipedia.
     * [basic writing and formatting syntax of github] =>> search on google.
     
+* command line:
+    * git clone [repo_link from github]     =>> [1] two are the same
+                                            =>> to clone the remote repo in this directory.
     
-    * command line:
-        
-        * [cd c]                        =>> 5 are the same  =>> to enter partition [c]
-        * [cd /c]                       =>> 5 are the same  =>> to enter partition [c]
-        * [cd c/]                       =>> 5 are the same  =>> to enter partition [c]
-        * [cd /c/]                      =>> 5 are the same  =>> to enter partition [c]
-        * [cd c:/]                      =>> 5 are the same  =>> to enter partition [c]
+    * git init
+    * git remote add origin [repo_link from github]
+    * git pull origin master                =>> [1] two are the same
+                                            =>> to clone the remote repo in this directory
+    
+    * note: [origin], [master] can be named other names.
+    =======================
 
-        * [cd /xampp]                   =>> [no slash before] [except c] = syntax error
+    * [cd c]                        =>> 5 are the same  =>> to enter partition [c]
+    * [cd /c]                       =>> 5 are the same  =>> to enter partition [c]
+    * [cd c/]                       =>> 5 are the same  =>> to enter partition [c]
+    * [cd /c/]                      =>> 5 are the same  =>> to enter partition [c]
+    * [cd c:/]                      =>> 5 are the same  =>> to enter partition [c]
 
-        * [cd xampp]                    =>> two are the same  =>> to enter directory [xampp]
-        * [cd xampp/]                   =>> two are the same  =>> to enter directory [xampp]
+    * [cd /xampp]                   =>> [/] after not before [except c] = syntax error
 
-        * [cd xampp/htdocs]             =>> two are the same  =>> to enter directory [htdocs]
-        * [cd xampp/htdocs/]            =>> two ar ethe same  =>> to enter directory [htdocs]
+    * [cd xampp]                    =>> two are the same  =>> to enter directory [xampp]
+    * [cd xampp/]                   =>> two are the same  =>> to enter directory [xampp]
 
-        * [cd /c/xampp/htdocs]          =>> two are the same  =>> to enter directory [htdocs].
-        * [cd c:/xampp/htdocs/]         =>> two are the same  =>> to enter directory [htdocs].
-        =================
-        
-        * [cd c]
-        * [cd xampp]
-        * [cd htdocs]                   =>> to enter directory [htdocs].
-                                        =>> natural  =>> [/] after not before
-        =================                                            
-        
-        * [cd .]                        =>> refers to current directory.
-        * [cd ..]                       =>> to back-up [one step] [one directory] [the parent directory].
-        * [cd ..]                       =>> to back-up [one step] [one directory] [the parent directory].
-        
+    * [cd xampp/htdocs]             =>> two are the same  =>> to enter directory [htdocs]
+    * [cd xampp/htdocs/]            =>> two ar ethe same  =>> to enter directory [htdocs]
 
-        * [mkdir my_github]             =>> to make directory [my_github] inside [htdocs] folder.
-        
-        * [cd mygithub]                 =>> two are the same  =>> to enter directory [my_github]
-        * [cd my_github/]               =>> two are the same  =>> to enter directory [my_github].
-        
-        * git clone [repo link from github]     =>> two are the same
-                                                =>> to clone the remote repo in this directory.
-        
-        * git init
-        * git remote add origin [repo link from github]
-        * git pull origin master                =>> two are the same
-                                                =>> to clone the remote repo in this directory
-        
-        * note: [origin], [master] can be named other names.
-        
-        * [dir]                         =>> to show directory content.
+    * [cd /c/xampp/htdocs]          =>> two are the same  =>> to enter directory [htdocs].
+    * [cd c:/xampp/htdocs/]         =>> two are the same  =>> to enter directory [htdocs].
+    =================
+    
+    * [cd c]
+    * [cd xampp]
+    * [cd htdocs]                   =>> to enter directory [htdocs].
+                                    =>> [/] after not before [except c] = syntax error
+    =================                                            
+    
+    * [cd .]                        =>> refers to current directory.
+    * [cd ..]                       =>> to back-up [one step] [one directory] [the parent directory].
+    * [cd ..]                       =>> to back-up [one step] [one directory] [the parent directory].
 
-        * [cd project-3dos/]            =>> to enter directory [project-3dos].
-        
-        * [clear]                       =>> to clear gitbash window.
+    * [mkdir my_github]             =>> to make directory [my_github] inside [htdocs] folder.
+    
+    * [cd mygithub]                 =>> to enter directory [my_github]  =>> two are the same
+    * [cd my_github/]               =>> to enter directory [my_github]  =>> two are the same
+    
+    * [dir]                         =>> to display directory content.
+    * [clear]                       =>> to clear gitbash window.
+
+    * [cd project-3dos/]            =>> to enter directory [project-3dos].
 */
 
 ?>

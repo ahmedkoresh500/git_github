@@ -1,16 +1,17 @@
 1- 
 2- 
-3- 
+3-  [git clone (repo_link from github)]
 4- 
-5- 
-6- 
-7- 
-8- 
-9- 
-10- 
-11- 
-12- 
-13- 
+5-  [git remote -v]
+6-  [git pull origin] -> makes two commands
+7-  [git config -l] [git config --global user.email] [unix window]
+8-  [public key] [secure shell]
+9-  [git push -u origin master]
+10- [no lesson]
+11- [alias names] [open and close unix window]
+12- [create new branch] -> [git branch main] [git checkout -b main]
+12- make a commit [main branch] =>> merge with [master branch]  =>> before push
+13- [git stash]
 14- 
 15- 
 16- 

@@ -1,31 +1,29 @@
 <?php
 /*
-    * git branch                                    =>> to print all branches i have in this directory.
+    * [git branch]                      =>> to display [all local branches] for this repo
+    * [git branch scroll]               =>> [1] to create new branch [scroll] =>> [no switch]
     
-    * git branch scroll                             =>> to create new branch [ scroll ].
+    * [git checkout scroll]             =>> to switch to [scroll branch]
+    * [git checkout master]             =>> to switch to [master branch]
     
-    * git checkout scroll                           =>> to switch from master branch to scroll branch.
+    * [git checkout -b main]            =>> [1] to create new branch [main] =>> and switch.
     
-    * git checkout master                           =>> to switch from scroll branch to master branch.
+    * [git branch -d branchName]        =>> [d small]   =>> [safe delete].
+                                        =>> [D capital] =>> [no safe delete].
     
-    * git checkout -b main                          =>> another way to create new branch =>> then switching it.
-    
-    * git branch -d scroll      [ d small ]         =>> to delete this branch [ safe delete ].
-                                [ d capital ]       =>> to delete this branch [ with no safe delete ].
-    
-    * git branch -m development                     =>> to rename the branch i'm switching it now.
+    * [git branch -m newName]           =>> to rename [current branch]
     
     
-    
-    
-    =>> ex: using main branch to make a commit =>> then merging it with master branch.
-    
+    =>> [EX]: make a commit [main branch] =>> merge with [master branch]  =>> before push  =>> compared to [lesson 6]
+    =>> main branch:
     * git checkout main
     * touch index.html
     * git add index.html
     * git commit -m "testing main branch"
+
+    =>> master branch:
     * git checkout master
-    * git merge main                                =>> to merge main branch with master branch.
+    * git merge main    =>> make a commit [main branch] =>> merge with [master branch]  =>> before push
     
 */
 ?>
