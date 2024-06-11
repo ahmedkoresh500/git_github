@@ -17,7 +17,7 @@
     * touch js
     * git add js                        =>> [untracked file] in working directory -> [stage area]
     * git stash save "readme file"      =>> to stash this file with text msg.
-    ** git stash list
+    **git  git stash list
     
     * touch hello.html                  =>> to create new file
     * git add hello.html                =>> [untracked file] in [working directory] -> [stage area].
