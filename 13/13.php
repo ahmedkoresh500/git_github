@@ -21,7 +21,7 @@
     * [git stash]                   =>> stash [untracked files] in [working directory] -> [stash box]
     * [git stash list]              =>> [1] [result = 0] =>> [stash box] not empty
     * [git stash pop]               =>> unstash files in [stash box] -> [working directory]
-                                    =>>  deleting it’s index.
+                                    =>> and deleting it’s index.
     * [git stash list]              =>> [result = nothing] =>> [stash box] empty
 
     * [git reset head my_file.txt]  =>> file in [stage area] -> [working directory].

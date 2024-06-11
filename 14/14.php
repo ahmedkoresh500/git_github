@@ -1,11 +1,11 @@
 <?php
 /*
-    =>> when using stash:
-    * newest stash = index [0].
-    * oldest stash = [bigger] index.
+    =>> git stash:
+    * index [0, 1, 2, 3, 4].
+    * 0  =>> newest stash
+    * 4  =>> oldest stash
     
-    =>> when using pop:
-    * last in = first out = index [0] =>> only one index for one pop.
+    =>> git stash pop       =>> [last in]->[first out] = index [0] =>> pop one index only
 
     * touch my_file.txt
     * nano my_file.txt
