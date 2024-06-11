@@ -12,12 +12,12 @@
     * git add readme.txt
     * git stash             =>> stash [untracked files] in [working directory] -> [stash box] from [git], [windows]
                             =>> even staged
-                            =>> [not through view hidden]
+                            =>> not through [view hidden]
 
-    * touch js
-    * git add js                        =>> [untracked file] in working directory -> [stage area]
-    * git stash save "readme file"      =>> to stash this file with text msg.
-    **git  git stash list
+    * touch JS
+    * git add JS
+    * git stash save "readme file"      =>> stash with [text msg].
+    ** git stash list
     
     * touch hello.html                  =>> to create new file
     * git add hello.html                =>> [untracked file] in [working directory] -> [stage area].
