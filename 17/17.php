@@ -19,7 +19,7 @@
     
     * git st
     
-    =>> we can ignore [.gitignore] file itself
+    =>> we can ignore [.gitignore] file itself      =>> doesn't work  =>> i don't know why
 
     =>> [git st]                    =>> [untracked files] [working directory]
     =>> [ls]                        =>> to list all [files] and [folders] in this directory

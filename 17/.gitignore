@@ -1,4 +1,6 @@
-*.log
+
+.gitignore
 !vip.log
+*.log
 node_packs/
 text.txt
