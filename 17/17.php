@@ -17,8 +17,9 @@
     * [touch .gitignore]        =>> to create new file.    
     * [code .gitignore]         =>> open with [vscode editor]
     
-    * [git st]                =>> [untracked files] [working directory]
-    * [ls]                    =>> to list all [files] and [folders] in this directory
+    * [git st]                  =>> [untracked files] in [working directory]
+    * [ls]                      =>> to list all [files] and [folders] in this repo
+    * [dir]                     =>> to list all [files] and [folders] in this repo
     
     =>> we can ignore [.gitignore] file itself  =>> in one case
     =>> [.gitignore file]  =>> not commited or pushed before
