@@ -1,37 +1,49 @@
 <?php
 
 /*
-    * creating [public key] and sending it to github and testing it.
+    * create [public key]:
     
-    * ssh               =>> secure shell
-    * -key gen          =>> key generation
-    * -t                =>> type of algorithm to generate the key
+    * some details:
+    [1] [ssh]               =>> secure shell
+    [2] [-keygen]           =>> key generation
+    [3] [-t]                =>> type of algorithm to generate the key
+                            =>> most famous 3:
+                            [1] [rsa]       =>> [rivest], [shamir], [adleman]
+                            [2] [dsa]       =>> digital signature algorithm
+                            [3] [ecdsa]     =>> elliptic curve digital signature algorithm
+
+    [4] [-b]                =>> number of bits
+    [5] [-C]                =>> mail            =>> must be uppercase
+
+    =>> in [cmd program]:
+    * [ssh-keygen -t rsa -b 4096 -C "ahmedkoresh500@gmail.com"]     =>> two are the same
+    * [ssh-keygen]                                                  =>> two are the same
+    * enter [file name]  =>> which in public key saved
+    * enter [password] [confirm password]
+
+
+    =>> [file name] must be empty
+    =>> [file name] not empty
+        [1] file created in this repo
+        [2] [public key] saved in two files:
+            [a] /c/users/Ahmed Korrish/.ssh/id_rsa.pub      =>> [id_rsa.pub] never changes
+            [b] in this repo [my_public_key.pub]
+        [3] when testing [public key] in cmd program    =>> test fails
+
+
+    * cat ~/.ssh/id_rsa.pub     =>> to display [id_rsa.pub] content = public key    =>> then copy
     
-    * [rsa]             =>> [rivest], [shamir], [adleman]
-    * [dsa]             =>> digital signature algorithm
-    * [ecdsa]     
+    * in github:
+        [1] press [settings]
+        [2] press [SSH and GPG keys]
+        [3] press [new SSH key]
+        [4] paste [public key] + [write new title]
+        [5] press [add SSH key]
     
-    * -b                =>> = the number of bits.
-    * -C                =>> = the mail.             =>> must be uppercase
-    
-    * [ssh-keygen -t rsa -b 4096 -C "ahmedkoresh500@gmail.com"]      =>> [C] must be uppercase
-    * then entering [password] [confirm password]
-    
-    * [id_rsa.pub]    =>> the public key was saved in this file
-    
-    * cat ~/.ssh/id_rsa.pub
-                        =>> to show the content of the public key  =>> i copy it to create it on github
-                        =>> it's not working
-                        =>> i opened the file from the path =>> and copied it's content
-    
-    * from settings in github, i clicked [new ssh key]   =>> secure shell
-    
-    * i paste the content of [id_rsa.pub] in the key text =>> then add a title in the title box [my home pc].
-    
-    * [ssh -T git@github.com]
-    
-    =>> like writing an email to open facebook
-    =>> then writing [yes] =>> then [enter] =>> then [password]
+    =>> test [public key] in cmd program:    
+    [1] [ssh -T git@github.com]
+    [2] enter password
+    [3] [hello message] appears
 */
 
 ?>
