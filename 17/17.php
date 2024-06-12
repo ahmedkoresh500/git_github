@@ -20,7 +20,8 @@
     * [git st]                =>> [untracked files] [working directory]
     * [ls]                    =>> to list all [files] and [folders] in this directory
     
-    =>> we can ignore [.gitignore] file itself  =>> doesn't work  =>> even [.gitignore] or [*.gitignore]
+    =>> we can ignore [.gitignore] file itself  =>> in one case
+    =>> [.gitignore file]  =>> not commited or pushed before
 
     * git add -f text.txt       =>> [untracked file][working directory] -> [stage area] although ignored
     * git add --force text.txt  =>> [untracked file][working directory] -> [stage area] although ignored
