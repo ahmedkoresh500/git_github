@@ -14,7 +14,7 @@
 13- [git stash]
 14- [git stash]
 15- [git add .] [git reset head] [git restore --staged .]
-16- reset [head] pointer at specific commit [older commit]
+16- [git reset --hard] =>> reset [head] pointer at specific commit [older commit]
 17- [.gitignore]
-18- [new tag]
-19- 
+18- [git tag]
+19- [git push origin -d v1.1]

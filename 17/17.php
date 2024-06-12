@@ -1,31 +1,30 @@
 <?php
 /*
-    revision:
-        * mkdir                         =>> to make directory.
-        * touch                         =>> to create file.
-        * cd ..                         =>> to back-up [one step] [one directory] [the parent directory].
-        * clear                         =>> to clear gitbash window.
+    =>> lesson [.gitignore]:
+        * [files], [folders] written inside [.gitignore] file
+        * [not staged] [not committed]
+
+    * note:
+        =>> [*.log]                 =>> to ignore all files [end with] [.log]
+        =>> [!vip.log]              =>> not ignore [this file]
     
-    * [touch .gitignore]                =>> to create [.gitignore] file.
-                                        =>> [files], [folders] written inside [.gitignore] file 
-                                        =>> [ignored = hidden] =>> not staged =>> not commited.
-    
-    * [code .gitignore]                 =>> to open this file by vscode editor.
-    
-    * touch vip.log
-    * git st                        =>> [vip.log] not ignored =>> because [!vip.log] written in .gitignore.
-    
-    * mkdir node_packs
+    * touch vip.log                     =>> not ignore [this file]  =>> [!vip.log] -> [.gitignore] file
+    * mkdir node_packs                  =>> ignore [this folder] =>> [node_packs/] -> [.gitignore] file
     * cd node_packs/
     * touch hello.php
     * cd ..
-    * git st                        =>> [node_packs] ignored =>> because [node_packs/] written in .gitignore.
     
-                                    =>> i can ignore .gitignore file itself.
-                                    =>> [git st] not equal to [ls].
+    * [touch .gitignore]                =>> to create new file.    
+    * [code .gitignore]                 =>> open with [vscode editor]
+    
+    * git st
+    
+    =>> we can ignore [.gitignore] file itself
 
-    * git add --force text.txt      =>> [working directory] -> [stage area] although ignoring it.
-    * git add -f text.txt           =>> [working directory] -> [stage area] although ignoring it.
-    
+    =>> [git st]                    =>> [untracked files] [working directory]
+    =>> [ls]                        =>> to list all [files] and [folders] in this directory
+
+    * git add -f text.txt           =>> [untracked file][working directory] -> [stage area] although ignored
+    * git add --force text.txt      =>> [untracked file][working directory] -> [stage area] although ignored
 */
 ?>
