@@ -1,7 +1,7 @@
-1- 
-2- 
+1-  [intro]
+2-  [intro]
 3-  [git clone (repo_link from github)]
-4- 
+4-  [git_github_cycle]
 5-  [git remote -v] [git branch -m main] [git branch -m master] [git remote set-URL origin (new repo_link)]
 6-  [git pull origin] -> makes two commands
 7-  [git config -l] [git config --global user.email] [unix window]
