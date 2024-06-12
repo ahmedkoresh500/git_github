@@ -16,5 +16,5 @@
 15- [git add .] [git reset head] [git restore --staged .]
 16- [git reset --hard] =>> reset [head] pointer at specific commit [older commit]
 17- [.gitignore]
-18- [git tag]
+18- [git tag] & [releases]
 19- [git push origin -d v1.1]
