@@ -1,4 +1,4 @@
-*.gitignore
+.gitignore
 *.log
 !vip.log
 node_packs/
